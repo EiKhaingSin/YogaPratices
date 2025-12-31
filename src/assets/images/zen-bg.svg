@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <pattern id="zenPattern" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+      <circle cx="100" cy="100" r="2" fill="#14b8a6" opacity="0.1"/>
+      <circle cx="50" cy="50" r="1.5" fill="#627162" opacity="0.08"/>
+      <circle cx="150" cy="150" r="1" fill="#14b8a6" opacity="0.06"/>
+    </pattern>
+    <linearGradient id="zenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0fdfa;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#fafaf9;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#f6f7f6;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#zenGrad)"/>
+  <rect width="1200" height="800" fill="url(#zenPattern)"/>
+  <path d="M200 200 Q300 150 400 200 T600 200" stroke="#14b8a6" stroke-width="1" fill="none" opacity="0.05"/>
+  <path d="M800 400 Q900 350 1000 400 T1200 400" stroke="#627162" stroke-width="1" fill="none" opacity="0.05"/>
+</svg>
+
